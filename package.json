@@ -8,7 +8,8 @@
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
     "lint" : "eslint src/**/*.js --fix",
-    "prettier": "husky install",
+    "prettier": "prettier --write .",
+    "prepare": "husky install",
     "postinstall": "npm run prepare"
   },
   "keywords": [],
